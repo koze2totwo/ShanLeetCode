@@ -4,7 +4,7 @@ public:
         int ans=0;
         int n=c.size()-1;
         for(int i =0;i<c.size();i++){
-            ans=pow(26,n--)*(c[i]-64)+ans;
+            ans=pow(26,n--)*(c[i]-64)+ans; // just derive the simple formula and its easy
         }
         return ans;
     }
